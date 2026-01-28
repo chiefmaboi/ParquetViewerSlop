@@ -1,0 +1,8 @@
+[server]
+# Increase maximum upload size to 2GB (2048 MB)
+# This allows uploading larger parquet files
+maxUploadSize = 2048
+
+[browser]
+# Disable default Streamlit gather usage stats
+gatherUsageStats = false
